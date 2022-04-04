@@ -1,2 +1,1 @@
-# johnsondotwtf
-gh-pages
+main
