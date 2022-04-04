@@ -3,12 +3,29 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-04-03T14:33:45-05:00</updated>
+    <updated>2022-04-04T09:21:39-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Weirdo</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/weirdo/"/>
+        <id>https://johnson.wtf/weirdo/</id>
+
+        <updated>2022-04-04T09:21:39-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/9/IMG_8126-2.jpeg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/9/IMG_8118.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/9/responsive/IMG_8118-xs.jpeg 300w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-sm.jpeg 480w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-md.jpeg 749w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-xl.jpeg 1200w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure><figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/9/IMG_8126.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/9/responsive/IMG_8126-xs.jpeg 300w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-sm.jpeg 480w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-md.jpeg 749w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-xl.jpeg 1200w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Basketcat</title>
         <author>
