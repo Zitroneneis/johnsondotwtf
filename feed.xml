@@ -3,12 +3,29 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-04-04T09:21:39-05:00</updated>
+    <updated>2022-04-22T11:24:12-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>honk.</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/honk/"/>
+        <id>https://johnson.wtf/honk/</id>
+
+        <updated>2022-04-22T11:24:12-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/12/IMG_8255-2.JPG" alt="goose." />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/12/IMG_8255.JPG" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/12/responsive/IMG_8255-xs.JPG 300w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-sm.JPG 480w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-md.JPG 749w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-xl.JPG 1200w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-xxl.JPG 1600w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-xxxl.JPG 2560w"  alt="goose." width="4032" height="3024"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Weirdo</title>
         <author>
