@@ -3,12 +3,29 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-04-22T11:24:12-05:00</updated>
+    <updated>2022-06-13T11:27:02-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>A flower at Chihuly Garden &amp; Glass</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/a-flower-at-chihuly-garden-and-glass/"/>
+        <id>https://johnson.wtf/a-flower-at-chihuly-garden-and-glass/</id>
+
+        <updated>2022-06-13T11:27:02-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/13/photo_2022-06-13_11-25-36-2.jpg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/13/photo_2022-06-13_11-25-36.jpg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/13/responsive/photo_2022-06-13_11-25-36-xs.jpg 300w ,https://johnson.wtf/media/posts/13/responsive/photo_2022-06-13_11-25-36-sm.jpg 480w ,https://johnson.wtf/media/posts/13/responsive/photo_2022-06-13_11-25-36-md.jpg 749w ,https://johnson.wtf/media/posts/13/responsive/photo_2022-06-13_11-25-36-xl.jpg 1200w ,https://johnson.wtf/media/posts/13/responsive/photo_2022-06-13_11-25-36-xxl.jpg 1600w ,https://johnson.wtf/media/posts/13/responsive/photo_2022-06-13_11-25-36-xxxl.jpg 2560w"  alt="A white flower at Chihuly Garden &amp; Glass exhibit, in Seattle, WA." width="1280" height="960"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>honk.</title>
         <author>
