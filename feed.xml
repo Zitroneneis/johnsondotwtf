@@ -3,12 +3,46 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-06-13T11:27:02-05:00</updated>
+    <updated>2022-07-01T10:35:39-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>When in Budapest, drink cheap beer!</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/when-in-budapest-drink-cheap-beer/"/>
+        <id>https://johnson.wtf/when-in-budapest-drink-cheap-beer/</id>
+
+        <updated>2022-07-01T10:35:39-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/15/IMG_8985-2.jpeg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/15/IMG_8985.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/15/responsive/IMG_8985-xs.jpeg 300w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-sm.jpeg 480w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-md.jpeg 749w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xl.jpeg 1200w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ducks in Luxembourg be like &quot;Le Qwakk&quot;</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/ducks-in-luxembourg-be-like-le-qwakk/"/>
+        <id>https://johnson.wtf/ducks-in-luxembourg-be-like-le-qwakk/</id>
+
+        <updated>2022-07-01T10:34:00-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/14/IMG_9055-2.jpeg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/14/IMG_9055.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/14/responsive/IMG_9055-xs.jpeg 300w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-sm.jpeg 480w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-md.jpeg 749w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-xl.jpeg 1200w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A flower at Chihuly Garden &amp; Glass</title>
         <author>
