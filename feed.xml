@@ -3,12 +3,29 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-07-06T13:58:16-05:00</updated>
+    <updated>2022-07-18T13:36:46-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Monday Mood</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/monday-mood/"/>
+        <id>https://johnson.wtf/monday-mood/</id>
+
+        <updated>2022-07-18T13:36:46-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/17/IMG_9432-2.jpeg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/17/IMG_9432.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/17/responsive/IMG_9432-xs.jpeg 300w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-sm.jpeg 480w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-md.jpeg 749w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xl.jpeg 1200w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Pool&#x27;s crowded</title>
         <author>
@@ -185,27 +202,6 @@
 </figure>
 <p>
 <!-- /wp:gallery --></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Heat transfer kitty</title>
-        <author>
-            <name>J Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/heat-transfer-kitty/"/>
-        <id>https://johnson.wtf/heat-transfer-kitty/</id>
-
-        <updated>2022-04-03T14:33:44-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://johnson.wtf/media/posts/4/8AA5B9A9-785F-415B-A3AD-041848F32F66-scaled.jpeg" alt="" />
-                <p><!-- wp:image {"id":67,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-67"><img decoding="auto" loading="lazy" src="https://johnson.wtf/media/posts/4/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/4/responsive/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024-xs.jpeg 300w ,https://johnson.wtf/media/posts/4/responsive/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024-sm.jpeg 480w ,https://johnson.wtf/media/posts/4/responsive/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024-md.jpeg 749w ,https://johnson.wtf/media/posts/4/responsive/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024-xl.jpeg 1200w ,https://johnson.wtf/media/posts/4/responsive/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/4/responsive/8AA5B9A9-785F-415B-A3AD-041848F32F66-768x1024-xxxl.jpeg 2560w"  alt="" /></figure></figure>
-<p>
-<!-- /wp:image --></p>
 
             ]]>
         </content>
