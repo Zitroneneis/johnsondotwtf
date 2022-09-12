@@ -3,12 +3,29 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-07-18T13:36:46-05:00</updated>
+    <updated>2022-09-11T09:30:49-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Shot! </title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/shot/"/>
+        <id>https://johnson.wtf/shot/</id>
+
+        <updated>2022-09-11T09:30:49-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22-2.jpg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22.jpg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xs.jpg 300w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-sm.jpg 480w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-md.jpg 749w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xl.jpg 1200w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxl.jpg 1600w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxxl.jpg 2560w"  alt="" width="1280" height="960"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Monday Mood</title>
         <author>
@@ -166,42 +183,6 @@
 <figure class="wp-block-image size-large"><figure class="wp-image-80"><img decoding="auto" loading="lazy" src="https://johnson.wtf/media/posts/7/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/7/responsive/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768-xs.jpeg 300w ,https://johnson.wtf/media/posts/7/responsive/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768-sm.jpeg 480w ,https://johnson.wtf/media/posts/7/responsive/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768-md.jpeg 749w ,https://johnson.wtf/media/posts/7/responsive/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768-xl.jpeg 1200w ,https://johnson.wtf/media/posts/7/responsive/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/7/responsive/54520895-2D83-4289-BA8E-7363132DF5E6-1024x768-xxxl.jpeg 2560w"  alt="" /></figure></figure>
 <p>
 <!-- /wp:image --></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Tom of Finland Christmas</title>
-        <author>
-            <name>J Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/tom-of-finland-christmas/"/>
-        <id>https://johnson.wtf/tom-of-finland-christmas/</id>
-
-        <updated>2022-04-03T14:33:44-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://johnson.wtf/media/posts/6/IMG_6341-scaled.jpeg" alt="" />
-                <p><!-- wp:gallery {"ids":[73,74,75,76],"linkTo":"file"} --></p>
-<figure class="wp-block-gallery columns-3 is-cropped">
-<ul class="blocks-gallery-grid">
-<li class="blocks-gallery-item">
-<figure><a href="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6339-scaled.jpeg"><figure class="wp-image-73"><img decoding="auto" loading="lazy" src="https://johnson.wtf/media/posts/6/IMG_6339-768x1024.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/6/responsive/IMG_6339-768x1024-xs.jpeg 300w ,https://johnson.wtf/media/posts/6/responsive/IMG_6339-768x1024-sm.jpeg 480w ,https://johnson.wtf/media/posts/6/responsive/IMG_6339-768x1024-md.jpeg 749w ,https://johnson.wtf/media/posts/6/responsive/IMG_6339-768x1024-xl.jpeg 1200w ,https://johnson.wtf/media/posts/6/responsive/IMG_6339-768x1024-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/6/responsive/IMG_6339-768x1024-xxxl.jpeg 2560w"  alt="" data-id="73" data-full-url="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6339-scaled.jpeg" data-link="http://local.johnson.wtf/?attachment_id=73" /></figure></a></figure>
-</li>
-<li class="blocks-gallery-item">
-<figure><a href="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6341-scaled.jpeg"><figure class="wp-image-74"><img decoding="auto" loading="lazy" src="https://johnson.wtf/media/posts/6/IMG_6341-1024x768.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/6/responsive/IMG_6341-1024x768-xs.jpeg 300w ,https://johnson.wtf/media/posts/6/responsive/IMG_6341-1024x768-sm.jpeg 480w ,https://johnson.wtf/media/posts/6/responsive/IMG_6341-1024x768-md.jpeg 749w ,https://johnson.wtf/media/posts/6/responsive/IMG_6341-1024x768-xl.jpeg 1200w ,https://johnson.wtf/media/posts/6/responsive/IMG_6341-1024x768-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/6/responsive/IMG_6341-1024x768-xxxl.jpeg 2560w"  alt="" data-id="74" data-full-url="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6341-scaled.jpeg" data-link="http://local.johnson.wtf/?attachment_id=74" /></figure></a></figure>
-</li>
-<li class="blocks-gallery-item">
-<figure><a href="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6342-scaled.jpeg"><figure class="wp-image-75"><img decoding="auto" loading="lazy" src="https://johnson.wtf/media/posts/6/IMG_6342-1024x768.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/6/responsive/IMG_6342-1024x768-xs.jpeg 300w ,https://johnson.wtf/media/posts/6/responsive/IMG_6342-1024x768-sm.jpeg 480w ,https://johnson.wtf/media/posts/6/responsive/IMG_6342-1024x768-md.jpeg 749w ,https://johnson.wtf/media/posts/6/responsive/IMG_6342-1024x768-xl.jpeg 1200w ,https://johnson.wtf/media/posts/6/responsive/IMG_6342-1024x768-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/6/responsive/IMG_6342-1024x768-xxxl.jpeg 2560w"  alt="" data-id="75" data-full-url="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6342-scaled.jpeg" data-link="http://local.johnson.wtf/?attachment_id=75" /></figure></a></figure>
-</li>
-<li class="blocks-gallery-item">
-<figure><a href="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6347-1-scaled.jpeg"><figure class="wp-image-76"><img decoding="auto" loading="lazy" src="https://johnson.wtf/media/posts/6/IMG_6347-1-768x1024.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/6/responsive/IMG_6347-1-768x1024-xs.jpeg 300w ,https://johnson.wtf/media/posts/6/responsive/IMG_6347-1-768x1024-sm.jpeg 480w ,https://johnson.wtf/media/posts/6/responsive/IMG_6347-1-768x1024-md.jpeg 749w ,https://johnson.wtf/media/posts/6/responsive/IMG_6347-1-768x1024-xl.jpeg 1200w ,https://johnson.wtf/media/posts/6/responsive/IMG_6347-1-768x1024-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/6/responsive/IMG_6347-1-768x1024-xxxl.jpeg 2560w"  alt="" data-id="76" data-full-url="http://local.johnson.wtf/wp-content/uploads/2021/11/IMG_6347-1-scaled.jpeg" data-link="http://local.johnson.wtf/?attachment_id=76" /></figure></a></figure>
-</li>
-</ul>
-</figure>
-<p>
-<!-- /wp:gallery --></p>
 
             ]]>
         </content>
