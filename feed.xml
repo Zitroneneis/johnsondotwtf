@@ -3,12 +3,29 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2022-09-27T11:58:57-05:00</updated>
+    <updated>2022-10-28T21:24:00-05:00</updated>
     <author>
         <name>J Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Holiday Kitters</title>
+        <author>
+            <name>J Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/holiday-kitters/"/>
+        <id>https://johnson.wtf/holiday-kitters/</id>
+
+        <updated>2022-10-28T21:24:00-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://johnson.wtf/media/posts/21/IMG_0658-Large-2-2.jpeg" alt="" />
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/21/IMG_0658-Large.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xs.jpeg 300w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-sm.jpeg 480w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-md.jpeg 749w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xl.jpeg 1200w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxxl.jpeg 2560w"  alt="" width="960" height="1280"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Playtime</title>
         <author>
@@ -160,23 +177,6 @@
             <![CDATA[
                     <img src="https://johnson.wtf/media/posts/12/IMG_8255-2.JPG" alt="goose." />
                 <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/12/IMG_8255.JPG" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/12/responsive/IMG_8255-xs.JPG 300w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-sm.JPG 480w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-md.JPG 749w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-xl.JPG 1200w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-xxl.JPG 1600w ,https://johnson.wtf/media/posts/12/responsive/IMG_8255-xxxl.JPG 2560w"  alt="goose." width="4032" height="3024"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Weirdo</title>
-        <author>
-            <name>J Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/weirdo/"/>
-        <id>https://johnson.wtf/weirdo/</id>
-
-        <updated>2022-04-04T09:21:39-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://johnson.wtf/media/posts/9/IMG_8126-2.jpeg" alt="" />
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/9/IMG_8118.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/9/responsive/IMG_8118-xs.jpeg 300w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-sm.jpeg 480w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-md.jpeg 749w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-xl.jpeg 1200w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/9/responsive/IMG_8118-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure><figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/9/IMG_8126.jpeg" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/9/responsive/IMG_8126-xs.jpeg 300w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-sm.jpeg 480w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-md.jpeg 749w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-xl.jpeg 1200w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/9/responsive/IMG_8126-xxxl.jpeg 2560w"  alt="" width="4032" height="3024"></figure>
             ]]>
         </content>
     </entry>
