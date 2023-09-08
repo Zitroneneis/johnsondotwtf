@@ -15,13 +15,14 @@
             "title": "Urban Hiking? Walking? Climbing Hills?",
             "summary": "Sounds like Seattle to me!",
             "content_html": "<p>Sounds like Seattle to me! </p>\n<figure class=\"post__image\"><img decoding=\"auto\" loading=\"lazy\"  src=\"https://johnson.wtf/media/posts/24/IMG_6594.jpeg\" alt=\"\" width=\"4032\" height=\"3024\" sizes=\"(max-width: 2560px) 100vw, 2560px\" srcset=\"https://johnson.wtf/media/posts/24/responsive/IMG_6594-xs.jpeg 300w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-sm.jpeg 480w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-md.jpeg 749w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xl.jpeg 1200w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xxxl.jpeg 2560w\"></figure>",
+            "image": "https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg",
             "author": {
                 "name": "Jay Johnson"
             },
             "tags": [
             ],
             "date_published": "2023-09-08T13:13:03-07:00",
-            "date_modified": "2023-09-08T13:13:03-07:00"
+            "date_modified": "2023-09-08T13:27:55-07:00"
         },
         {
             "id": "https://johnson.wtf/sleepybean/",

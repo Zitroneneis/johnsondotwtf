@@ -3,7 +3,7 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2023-09-08T13:13:03-07:00</updated>
+    <updated>2023-09-08T13:27:55-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://johnson.wtf/urban-hiking-walking-climbing-hills/"/>
         <id>https://johnson.wtf/urban-hiking-walking-climbing-hills/</id>
+        <media:content url="https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg" medium="image" />
 
-        <updated>2023-09-08T13:13:03-07:00</updated>
+        <updated>2023-09-08T13:27:55-07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg" alt="" />
                     Sounds like Seattle to me!
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg" class="type:primaryImage" alt="" /></p>
                 <p>Sounds like Seattle to me! </p>
 <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/24/IMG_6594.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/24/responsive/IMG_6594-xs.jpeg 300w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-sm.jpeg 480w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-md.jpeg 749w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xl.jpeg 1200w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xxxl.jpeg 2560w"></figure>
             ]]>
