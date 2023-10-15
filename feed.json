@@ -14,13 +14,14 @@
             "url": "https://johnson.wtf/the-last-beach-day-of-the-year/",
             "title": "The Last Beach Day of the Year",
             "content_html": "<figure class=\"post__image\"><img decoding=\"auto\" loading=\"lazy\"  src=\"https://johnson.wtf/media/posts/25/IMG_7108.jpeg\" alt=\"\" width=\"5712\" height=\"4284\" sizes=\"(max-width: 2560px) 100vw, 2560px\" srcset=\"https://johnson.wtf/media/posts/25/responsive/IMG_7108-xs.jpeg 300w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-sm.jpeg 480w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-md.jpeg 749w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-xl.jpeg 1200w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-xxxl.jpeg 2560w\"></figure>",
+            "image": "https://johnson.wtf/media/posts/25/IMG_7108-2.jpeg",
             "author": {
                 "name": "Jay Johnson"
             },
             "tags": [
             ],
             "date_published": "2023-10-15T15:51:31-07:00",
-            "date_modified": "2023-10-15T16:14:03-07:00"
+            "date_modified": "2023-10-15T16:20:13-07:00"
         },
         {
             "id": "https://johnson.wtf/urban-hiking-walking-climbing-hills/",
