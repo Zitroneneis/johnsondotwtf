@@ -3,12 +3,36 @@
     <title>Jared&#x27;s iPhone Pics</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2023-10-15T16:23:43-07:00</updated>
+    <updated>2023-12-13T11:06:32-08:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Seattle Sunrise</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/seattle-sunrise/"/>
+        <id>https://johnson.wtf/seattle-sunrise/</id>
+        <media:content url="https://johnson.wtf/media/posts/26/IMG_7923-2.jpeg" medium="image" />
+
+        <updated>2023-12-13T11:06:32-08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://johnson.wtf/media/posts/26/IMG_7923-2.jpeg" alt="" />
+                    Today we had a gorgeous Seattle sunrise, the clouds yawning as they wake up before skedaddling off to make for a beautiful sunny PNW day.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/26/IMG_7923-2.jpeg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/26/IMG_7923.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/26/responsive/IMG_7923-xs.webp 300w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-sm.webp 480w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-md.webp 749w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-xl.webp 1200w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-xxl.webp 1600w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-xxxl.webp 2560w"></figure>
+<p>Today we had a gorgeous Seattle sunrise, the clouds yawning as they wake up before skedaddling off to make for a beautiful sunny PNW day.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Last Beach Day of the Year</title>
         <author>
@@ -171,24 +195,6 @@
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/17/IMG_9432-2.jpeg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/17/IMG_9432.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/17/responsive/IMG_9432-xs.webp 300w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-sm.webp 480w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-md.webp 749w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xl.webp 1200w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxl.webp 1600w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxxl.webp 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Pool&#x27;s crowded</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/pools-crowded/"/>
-        <id>https://johnson.wtf/pools-crowded/</id>
-        <media:content url="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" medium="image" />
-
-        <updated>2022-07-06T11:58:16-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/16/IMG_9246-2.jpeg" alt="A photo of an apartment pool with pool lounge chairs congregating in a sinister fashion in the middle of the pool" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xs.webp 300w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-sm.webp 480w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-md.webp 749w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xl.webp 1200w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxl.webp 1600w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxxl.webp 2560w"></figure>
             ]]>
         </content>
     </entry>
