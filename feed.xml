@@ -1,93 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Jared&#x27;s iPhone Pics</title>
+    <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2023-12-13T11:06:32-08:00</updated>
+    <updated>2024-01-17T11:34:06-08:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
     <entry>
-        <title>Seattle Sunrise</title>
+        <title>Seattle Sunsets Stay Stunning</title>
         <author>
             <name>Jay Johnson</name>
         </author>
-        <link href="https://johnson.wtf/seattle-sunrise/"/>
-        <id>https://johnson.wtf/seattle-sunrise/</id>
-        <media:content url="https://johnson.wtf/media/posts/26/IMG_7923-2.jpeg" medium="image" />
+        <link href="https://johnson.wtf/seattle-sunsets-stay-stunning/"/>
+        <id>https://johnson.wtf/seattle-sunsets-stay-stunning/</id>
+        <media:content url="https://johnson.wtf/media/posts/23/photo_2024-01-15_17-17-59.jpg" medium="image" />
 
-        <updated>2023-12-13T11:06:32-08:00</updated>
+        <updated>2024-01-17T11:32:51-08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://johnson.wtf/media/posts/26/IMG_7923-2.jpeg" alt="" />
-                    Today we had a gorgeous Seattle sunrise, the clouds yawning as they wake up before skedaddling off to make for a beautiful sunny PNW day.
+                        <img src="https://johnson.wtf/media/posts/23/photo_2024-01-15_17-17-59.jpg" alt="" />
+                    Almost a year since I moved to Seattle, and the views still don't disappoint. No regrets on the decision to leave Austin for new vistas.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/26/IMG_7923-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/26/IMG_7923.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/26/responsive/IMG_7923-xs.jpeg 300w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-sm.jpeg 480w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-md.jpeg 749w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-xl.jpeg 1200w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/26/responsive/IMG_7923-xxxl.jpeg 2560w"></figure>
-<p>Today we had a gorgeous Seattle sunrise, the clouds yawning as they wake up before skedaddling off to make for a beautiful sunny PNW day.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Last Beach Day of the Year</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/the-last-beach-day-of-the-year/"/>
-        <id>https://johnson.wtf/the-last-beach-day-of-the-year/</id>
-        <media:content url="https://johnson.wtf/media/posts/25/IMG_7108-2.jpeg" medium="image" />
-
-        <updated>2023-10-15T16:23:43-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/25/IMG_7108-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/25/IMG_7108.jpeg" alt="" width="5712" height="4284" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/25/responsive/IMG_7108-xs.jpeg 300w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-sm.jpeg 480w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-md.jpeg 749w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-xl.jpeg 1200w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/25/responsive/IMG_7108-xxxl.jpeg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Urban Hiking? Walking? Climbing Hills?</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/urban-hiking-walking-climbing-hills/"/>
-        <id>https://johnson.wtf/urban-hiking-walking-climbing-hills/</id>
-        <media:content url="https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg" medium="image" />
-
-        <updated>2023-09-08T13:27:55-07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg" alt="" />
-                    Sounds like Seattle to me!
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/24/IMG_6594-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <p>Sounds like Seattle to me! </p>
-<figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/24/IMG_6594.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/24/responsive/IMG_6594-xs.jpeg 300w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-sm.jpeg 480w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-md.jpeg 749w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xl.jpeg 1200w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/24/responsive/IMG_6594-xxxl.jpeg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Sleepybean</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/sleepybean/"/>
-        <id>https://johnson.wtf/sleepybean/</id>
-
-        <updated>2023-05-02T08:52:54-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image align-center"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/23/IMG_3292.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/23/responsive/IMG_3292-xs.jpeg 300w ,https://johnson.wtf/media/posts/23/responsive/IMG_3292-sm.jpeg 480w ,https://johnson.wtf/media/posts/23/responsive/IMG_3292-md.jpeg 749w ,https://johnson.wtf/media/posts/23/responsive/IMG_3292-xl.jpeg 1200w ,https://johnson.wtf/media/posts/23/responsive/IMG_3292-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/23/responsive/IMG_3292-xxxl.jpeg 2560w"></figure>
+                    <p><img src="https://johnson.wtf/media/posts/23/photo_2024-01-15_17-17-59.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/23/IMG_8288.JPG" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/23/responsive/IMG_8288-xs.JPG 300w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-sm.JPG 480w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-md.JPG 749w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-xl.JPG 1200w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-xxl.JPG 1600w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-xxxl.JPG 2560w"></figure>
+<p>Almost a year since I moved to Seattle, and the views still don't disappoint. No regrets on the decision to leave Austin for new vistas. Now to find a new job, so I can remain in this lovely place!</p>
             ]]>
         </content>
     </entry>
@@ -98,12 +40,14 @@
         </author>
         <link href="https://johnson.wtf/my-cat-has-resting-bitch-face/"/>
         <id>https://johnson.wtf/my-cat-has-resting-bitch-face/</id>
+        <media:content url="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.jpg" medium="image" />
 
-        <updated>2023-03-29T11:40:19-07:00</updated>
+        <updated>2024-01-17T11:34:06-08:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55.JPG" alt="Iris cat" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xs.JPG 300w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-sm.JPG 480w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-md.JPG 749w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xl.JPG 1200w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxl.JPG 1600w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.JPG 2560w"></figure>
+                    <p><img src="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55.JPG" alt="Iris cat" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xs.JPG 300w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-sm.JPG 480w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-md.JPG 749w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xl.JPG 1200w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxl.JPG 1600w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.JPG 2560w"></figure>
             ]]>
         </content>
     </entry>
@@ -121,7 +65,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/21/IMG_0658-Large-2-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/21/IMG_0658-Large.jpeg" alt="" width="960" height="1280" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xs.jpeg 300w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-sm.jpeg 480w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-md.jpeg 749w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xl.jpeg 1200w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxxl.jpeg 2560w"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/21/IMG_0658-Large.jpeg" alt="" width="960" height="1280" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xs.jpeg 300w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-sm.jpeg 480w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-md.jpeg 749w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xl.jpeg 1200w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxxl.jpeg 2560w"></figure>
             ]]>
         </content>
     </entry>
@@ -139,8 +83,8 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/20/IMG_0058-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/20/IMG_0058.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/20/responsive/IMG_0058-xs.jpeg 300w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-sm.jpeg 480w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-md.jpeg 749w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xl.jpeg 1200w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xxxl.jpeg 2560w"></figure>
-<figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/20/IMG_0058-3.HEIC" alt=""></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/20/IMG_0058.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/20/responsive/IMG_0058-xs.jpeg 300w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-sm.jpeg 480w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-md.jpeg 749w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xl.jpeg 1200w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xxxl.jpeg 2560w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/20/IMG_0058-3.HEIC" alt=""></figure>
             ]]>
         </content>
     </entry>
@@ -158,7 +102,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/19/IMG_0270.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/19/IMG_0270-2.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xs.jpeg 300w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-sm.jpeg 480w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-md.jpeg 749w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xl.jpeg 1200w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xxxl.jpeg 2560w"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/19/IMG_0270-2.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xs.jpeg 300w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-sm.jpeg 480w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-md.jpeg 749w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xl.jpeg 1200w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xxxl.jpeg 2560w"></figure>
             ]]>
         </content>
     </entry>
@@ -176,7 +120,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22-2.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22.jpg" alt="" width="1280" height="960" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xs.jpg 300w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-sm.jpg 480w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-md.jpg 749w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xl.jpg 1200w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxl.jpg 1600w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxxl.jpg 2560w"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22.jpg" alt="" width="1280" height="960" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xs.jpg 300w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-sm.jpg 480w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-md.jpg 749w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xl.jpg 1200w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxl.jpg 1600w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxxl.jpg 2560w"></figure>
             ]]>
         </content>
     </entry>
@@ -194,7 +138,61 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/17/IMG_9432-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img decoding="auto" loading="lazy"  src="https://johnson.wtf/media/posts/17/IMG_9432.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/17/responsive/IMG_9432-xs.jpeg 300w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-sm.jpeg 480w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-md.jpeg 749w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xl.jpeg 1200w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxxl.jpeg 2560w"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/17/IMG_9432.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/17/responsive/IMG_9432-xs.jpeg 300w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-sm.jpeg 480w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-md.jpeg 749w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xl.jpeg 1200w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxxl.jpeg 2560w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Pool&#x27;s crowded</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/pools-crowded/"/>
+        <id>https://johnson.wtf/pools-crowded/</id>
+        <media:content url="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" medium="image" />
+
+        <updated>2022-07-06T11:58:16-07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/16/IMG_9246-2.jpeg" alt="A photo of an apartment pool with pool lounge chairs congregating in a sinister fashion in the middle of the pool" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xs.jpeg 300w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-sm.jpeg 480w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-md.jpeg 749w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xl.jpeg 1200w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxxl.jpeg 2560w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>When in Budapest, drink cheap beer!</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/when-in-budapest-drink-cheap-beer/"/>
+        <id>https://johnson.wtf/when-in-budapest-drink-cheap-beer/</id>
+        <media:content url="https://johnson.wtf/media/posts/15/IMG_8985-2.jpeg" medium="image" />
+
+        <updated>2022-07-01T08:35:39-07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/15/IMG_8985-2.jpeg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/15/IMG_8985.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/15/responsive/IMG_8985-xs.jpeg 300w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-sm.jpeg 480w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-md.jpeg 749w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xl.jpeg 1200w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xxxl.jpeg 2560w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ducks in Luxembourg be like &quot;Le Qwakk&quot;</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/ducks-in-luxembourg-be-like-le-qwakk/"/>
+        <id>https://johnson.wtf/ducks-in-luxembourg-be-like-le-qwakk/</id>
+        <media:content url="https://johnson.wtf/media/posts/14/IMG_9055-2.jpeg" medium="image" />
+
+        <updated>2022-07-01T08:34:00-07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/14/IMG_9055-2.jpeg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/14/IMG_9055.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/14/responsive/IMG_9055-xs.jpeg 300w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-sm.jpeg 480w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-md.jpeg 749w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-xl.jpeg 1200w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/14/responsive/IMG_9055-xxxl.jpeg 2560w"></figure>
             ]]>
         </content>
     </entry>
