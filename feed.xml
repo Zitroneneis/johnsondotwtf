@@ -3,12 +3,37 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2024-04-07T18:14:56-07:00</updated>
+    <updated>2024-04-07T18:28:16-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Choo Choo</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/choo-choo/"/>
+        <id>https://johnson.wtf/choo-choo/</id>
+        <media:content url="https://johnson.wtf/media/posts/25/IMG_8984-2.JPG" medium="image" />
+
+        <updated>2024-04-07T18:28:16-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://johnson.wtf/media/posts/25/IMG_8984-2.JPG" alt="" />
+                    I recently went to the Mariners' opening night here in Seattle. It was the first time I've been to a baseball game since game 7&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/25/IMG_8984-2.JPG" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/25/IMG_8960.JPG" alt="A view of T-Mobile Stadium for the Mariners opening game" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/25/responsive/IMG_8960-xs.JPG 300w ,https://johnson.wtf/media/posts/25/responsive/IMG_8960-sm.JPG 480w ,https://johnson.wtf/media/posts/25/responsive/IMG_8960-md.JPG 749w ,https://johnson.wtf/media/posts/25/responsive/IMG_8960-xl.JPG 1200w ,https://johnson.wtf/media/posts/25/responsive/IMG_8960-xxl.JPG 1600w ,https://johnson.wtf/media/posts/25/responsive/IMG_8960-xxxl.JPG 2560w"></figure>
+<p>I recently went to the Mariners' opening night here in Seattle. It was the first time I've been to a baseball game since game 7 of the 2001 World Series, when the Diamondbacks beat the Yankees. It was a pretty fantastic time, even for someone who doesn't care much for baseball 😜<br>Afterward, we dipped into the bar at a hotel where my friend stayed for a few cocktails. Post-game and post-drinks, I headed back home, taking the opportunity to snag a late-night snap of the Pioneer Square Link Station. It's my favorite station in town; it's truly a stunning train station.</p>
+<figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/25/IMG_8984-3.JPG" alt="The tunnel wall inside Pioneer Square Station" width="2932" height="2199" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/25/responsive/IMG_8984-3-xs.JPG 300w ,https://johnson.wtf/media/posts/25/responsive/IMG_8984-3-sm.JPG 480w ,https://johnson.wtf/media/posts/25/responsive/IMG_8984-3-md.JPG 749w ,https://johnson.wtf/media/posts/25/responsive/IMG_8984-3-xl.JPG 1200w ,https://johnson.wtf/media/posts/25/responsive/IMG_8984-3-xxl.JPG 1600w ,https://johnson.wtf/media/posts/25/responsive/IMG_8984-3-xxxl.JPG 2560w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Sunny Spring Days Make Me Gush</title>
         <author>
@@ -178,24 +203,6 @@
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/16/IMG_9246-2.jpeg" alt="A photo of an apartment pool with pool lounge chairs congregating in a sinister fashion in the middle of the pool" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xs.jpeg 300w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-sm.jpeg 480w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-md.jpeg 749w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xl.jpeg 1200w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxxl.jpeg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>When in Budapest, drink cheap beer!</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/when-in-budapest-drink-cheap-beer/"/>
-        <id>https://johnson.wtf/when-in-budapest-drink-cheap-beer/</id>
-        <media:content url="https://johnson.wtf/media/posts/15/IMG_8985-2.jpeg" medium="image" />
-
-        <updated>2022-07-01T08:35:39-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/15/IMG_8985-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/15/IMG_8985.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/15/responsive/IMG_8985-xs.jpeg 300w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-sm.jpeg 480w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-md.jpeg 749w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xl.jpeg 1200w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/15/responsive/IMG_8985-xxxl.jpeg 2560w"></figure>
             ]]>
         </content>
     </entry>
