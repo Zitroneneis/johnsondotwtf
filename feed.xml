@@ -3,12 +3,36 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2024-04-07T18:28:16-07:00</updated>
+    <updated>2024-05-20T12:29:18-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Blep</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/blep/"/>
+        <id>https://johnson.wtf/blep/</id>
+        <media:content url="https://johnson.wtf/media/posts/26/IMG_9361-2.JPG" medium="image" />
+
+        <updated>2024-05-20T12:29:18-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://johnson.wtf/media/posts/26/IMG_9361-2.JPG" alt="" />
+                    Just a sleepy kitty doing a blep, enjoying her cozy blankets in her comfy chair.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/26/IMG_9361-2.JPG" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/26/IMG_9361.JPG" alt="A kitty blep" width="3911" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/26/responsive/IMG_9361-xs.JPG 300w ,https://johnson.wtf/media/posts/26/responsive/IMG_9361-sm.JPG 480w ,https://johnson.wtf/media/posts/26/responsive/IMG_9361-md.JPG 749w ,https://johnson.wtf/media/posts/26/responsive/IMG_9361-xl.JPG 1200w ,https://johnson.wtf/media/posts/26/responsive/IMG_9361-xxl.JPG 1600w ,https://johnson.wtf/media/posts/26/responsive/IMG_9361-xxxl.JPG 2560w"></figure>
+<p>Just a sleepy kitty doing a blep, enjoying her cozy blankets in her comfy chair.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Choo Choo</title>
         <author>
@@ -185,24 +209,6 @@
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/17/IMG_9432-2.jpeg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/17/IMG_9432.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/17/responsive/IMG_9432-xs.jpeg 300w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-sm.jpeg 480w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-md.jpeg 749w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xl.jpeg 1200w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxxl.jpeg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Pool&#x27;s crowded</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/pools-crowded/"/>
-        <id>https://johnson.wtf/pools-crowded/</id>
-        <media:content url="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" medium="image" />
-
-        <updated>2022-07-06T11:58:16-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/16/IMG_9246.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/16/IMG_9246-2.jpeg" alt="A photo of an apartment pool with pool lounge chairs congregating in a sinister fashion in the middle of the pool" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xs.jpeg 300w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-sm.jpeg 480w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-md.jpeg 749w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xl.jpeg 1200w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/16/responsive/IMG_9246-2-xxxl.jpeg 2560w"></figure>
             ]]>
         </content>
     </entry>
