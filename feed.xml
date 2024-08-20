@@ -3,12 +3,36 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2024-05-20T12:32:10-07:00</updated>
+    <updated>2024-08-20T12:42:13-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>Nyoooom!</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/nyoooom/"/>
+        <id>https://johnson.wtf/nyoooom/</id>
+        <media:content url="https://johnson.wtf/media/posts/27/IMG000-2.jpg" medium="image" />
+
+        <updated>2024-08-20T12:42:13-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://johnson.wtf/media/posts/27/IMG000-2.jpg" alt="" />
+                    The Blue Angels go nyoooom in their F/A-18's. It's pretty neat living in Jet City!
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/27/IMG000-2.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/27/IMG000.jpg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/27/responsive/IMG000-xs.jpg 300w ,https://johnson.wtf/media/posts/27/responsive/IMG000-sm.jpg 480w ,https://johnson.wtf/media/posts/27/responsive/IMG000-md.jpg 749w ,https://johnson.wtf/media/posts/27/responsive/IMG000-xl.jpg 1200w ,https://johnson.wtf/media/posts/27/responsive/IMG000-xxl.jpg 1600w ,https://johnson.wtf/media/posts/27/responsive/IMG000-xxxl.jpg 2560w"></figure>
+<p>The Blue Angels go nyoooom in their F/A-18's. It's pretty neat living in Jet City!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Blep</title>
         <author>
@@ -191,24 +215,6 @@
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22-2.jpg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22.jpg" alt="" width="1280" height="960" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xs.jpg 300w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-sm.jpg 480w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-md.jpg 749w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xl.jpg 1200w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxl.jpg 1600w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxxl.jpg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Monday Mood</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/monday-mood/"/>
-        <id>https://johnson.wtf/monday-mood/</id>
-        <media:content url="https://johnson.wtf/media/posts/17/IMG_9432-2.jpeg" medium="image" />
-
-        <updated>2022-07-18T11:36:46-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/17/IMG_9432-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/17/IMG_9432.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/17/responsive/IMG_9432-xs.jpeg 300w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-sm.jpeg 480w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-md.jpeg 749w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xl.jpeg 1200w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/17/responsive/IMG_9432-xxxl.jpeg 2560w"></figure>
             ]]>
         </content>
     </entry>
