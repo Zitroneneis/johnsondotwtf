@@ -3,12 +3,36 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2024-08-20T12:42:13-07:00</updated>
+    <updated>2024-09-24T12:34:24-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>The Sky is Burning</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/the-sky-is-burning/"/>
+        <id>https://johnson.wtf/the-sky-is-burning/</id>
+        <media:content url="https://johnson.wtf/media/posts/28/IMG_1073.JPG" medium="image" />
+
+        <updated>2024-09-24T12:34:24-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://johnson.wtf/media/posts/28/IMG_1073.JPG" alt="A view of Seattle and the Olympic mountains in the distant, under a vivid orange and blue sunset" />
+                    Seattle really does know how to give a stunning sunset show. This view is looking out across the sound from Belltown. 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/28/IMG_1073.JPG" class="type:primaryImage" alt="A view of Seattle and the Olympic mountains in the distant, under a vivid orange and blue sunset" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/28/IMG_1073-2.JPG" alt="A view of Seattle and the Olympic mountains in the distant, under a vivid orange and blue sunset" width="5712" height="4284" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/28/responsive/IMG_1073-2-xs.JPG 300w ,https://johnson.wtf/media/posts/28/responsive/IMG_1073-2-sm.JPG 480w ,https://johnson.wtf/media/posts/28/responsive/IMG_1073-2-md.JPG 749w ,https://johnson.wtf/media/posts/28/responsive/IMG_1073-2-xl.JPG 1200w ,https://johnson.wtf/media/posts/28/responsive/IMG_1073-2-xxl.JPG 1600w ,https://johnson.wtf/media/posts/28/responsive/IMG_1073-2-xxxl.JPG 2560w"></figure>
+<p>Seattle really does know how to give a stunning sunset show. This view is looking out across the sound from Belltown. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Nyoooom!</title>
         <author>
@@ -197,24 +221,6 @@
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/19/IMG_0270.jpeg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/19/IMG_0270-2.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xs.jpeg 300w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-sm.jpeg 480w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-md.jpeg 749w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xl.jpeg 1200w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/19/responsive/IMG_0270-2-xxxl.jpeg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Shot! </title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/shot/"/>
-        <id>https://johnson.wtf/shot/</id>
-        <media:content url="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22-2.jpg" medium="image" />
-
-        <updated>2022-09-11T07:30:49-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22-2.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/18/photo_2022-09-11_09-30-22.jpg" alt="" width="1280" height="960" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xs.jpg 300w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-sm.jpg 480w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-md.jpg 749w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xl.jpg 1200w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxl.jpg 1600w ,https://johnson.wtf/media/posts/18/responsive/photo_2022-09-11_09-30-22-xxxl.jpg 2560w"></figure>
             ]]>
         </content>
     </entry>
