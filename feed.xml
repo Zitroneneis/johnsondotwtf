@@ -3,12 +3,28 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2025-03-25T09:19:58-07:00</updated>
+    <updated>2025-07-21T17:18:30-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>just follow the path</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/just-follow-the-path/"/>
+        <id>https://johnson.wtf/just-follow-the-path/</id>
+
+        <updated>2025-07-21T17:18:30-07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/31/IMG_6915.JPG" alt="bridge" width="3888" height="2916" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/31/responsive/IMG_6915-xs.JPG 300w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-sm.JPG 480w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-md.JPG 749w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-xl.JPG 1200w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-xxl.JPG 1600w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-xxxl.JPG 2560w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Rainier lookin&#x27; kinda shy</title>
         <author>
@@ -208,25 +224,6 @@
             <![CDATA[
                     <p><img src="https://johnson.wtf/media/posts/21/IMG_0658-Large-2-2.jpeg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/21/IMG_0658-Large.jpeg" alt="" width="960" height="1280" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xs.jpeg 300w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-sm.jpeg 480w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-md.jpeg 749w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xl.jpeg 1200w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/21/responsive/IMG_0658-Large-xxxl.jpeg 2560w"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Playtime</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/playtime/"/>
-        <id>https://johnson.wtf/playtime/</id>
-        <media:content url="https://johnson.wtf/media/posts/20/IMG_0058-2.jpeg" medium="image" />
-
-        <updated>2022-09-27T09:58:57-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/20/IMG_0058-2.jpeg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/20/IMG_0058.jpeg" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/20/responsive/IMG_0058-xs.jpeg 300w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-sm.jpeg 480w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-md.jpeg 749w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xl.jpeg 1200w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xxl.jpeg 1600w ,https://johnson.wtf/media/posts/20/responsive/IMG_0058-xxxl.jpeg 2560w"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/20/IMG_0058-3.HEIC" alt=""></figure>
             ]]>
         </content>
     </entry>
