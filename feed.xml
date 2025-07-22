@@ -3,7 +3,7 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2025-07-21T17:18:30-07:00</updated>
+    <updated>2025-07-21T19:35:34-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
@@ -16,11 +16,13 @@
         </author>
         <link href="https://johnson.wtf/just-follow-the-path/"/>
         <id>https://johnson.wtf/just-follow-the-path/</id>
+        <media:content url="https://johnson.wtf/media/posts/31/IMG_6915-2.JPG" medium="image" />
 
         <updated>2025-07-21T17:18:30-07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/31/IMG_6915-2.JPG" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/31/IMG_6915.JPG" alt="bridge" width="3888" height="2916" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/31/responsive/IMG_6915-xs.JPG 300w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-sm.JPG 480w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-md.JPG 749w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-xl.JPG 1200w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-xxl.JPG 1600w ,https://johnson.wtf/media/posts/31/responsive/IMG_6915-xxxl.JPG 2560w"></figure>
             ]]>
         </content>
