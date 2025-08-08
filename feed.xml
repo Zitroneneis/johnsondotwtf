@@ -3,12 +3,30 @@
     <title>WTF?</title>
     <link href="https://johnson.wtf/feed.xml" rel="self" />
     <link href="https://johnson.wtf" />
-    <updated>2025-07-27T11:44:34-07:00</updated>
+    <updated>2025-08-08T13:34:45-07:00</updated>
     <author>
         <name>Jay Johnson</name>
     </author>
     <id>https://johnson.wtf</id>
 
+    <entry>
+        <title>biiiiig stretch!</title>
+        <author>
+            <name>Jay Johnson</name>
+        </author>
+        <link href="https://johnson.wtf/biiiiig-stretch/"/>
+        <id>https://johnson.wtf/biiiiig-stretch/</id>
+        <media:content url="https://johnson.wtf/media/posts/33/IMG_7431-2.jpg" medium="image" />
+
+        <updated>2025-08-08T13:34:45-07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://johnson.wtf/media/posts/33/IMG_7431-2.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/33/IMG_7431.jpg" alt="" width="8064" height="6048" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/33/responsive/IMG_7431-xs.jpg 300w ,https://johnson.wtf/media/posts/33/responsive/IMG_7431-sm.jpg 480w ,https://johnson.wtf/media/posts/33/responsive/IMG_7431-md.jpg 749w ,https://johnson.wtf/media/posts/33/responsive/IMG_7431-xl.jpg 1200w ,https://johnson.wtf/media/posts/33/responsive/IMG_7431-xxl.jpg 1600w ,https://johnson.wtf/media/posts/33/responsive/IMG_7431-xxxl.jpg 2560w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>sunkitty</title>
         <author>
@@ -208,24 +226,6 @@
                     <p><img src="https://johnson.wtf/media/posts/23/photo_2024-01-15_17-17-59.jpg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/23/IMG_8288.JPG" alt="" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/23/responsive/IMG_8288-xs.JPG 300w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-sm.JPG 480w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-md.JPG 749w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-xl.JPG 1200w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-xxl.JPG 1600w ,https://johnson.wtf/media/posts/23/responsive/IMG_8288-xxxl.JPG 2560w"></figure>
 <p>Almost a year since I moved to Seattle, and the views still don't disappoint. No regrets on the decision to leave Austin for new vistas. Now to find a new job, so I can remain in this lovely place!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>My cat has resting bitch face</title>
-        <author>
-            <name>Jay Johnson</name>
-        </author>
-        <link href="https://johnson.wtf/my-cat-has-resting-bitch-face/"/>
-        <id>https://johnson.wtf/my-cat-has-resting-bitch-face/</id>
-        <media:content url="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.jpg" medium="image" />
-
-        <updated>2023-03-29T11:40:19-07:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://johnson.wtf/media/posts/22/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55.JPG" alt="Iris cat" width="4032" height="3024" sizes="(max-width: 2560px) 100vw, 2560px" srcset="https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xs.JPG 300w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-sm.JPG 480w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-md.JPG 749w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xl.JPG 1200w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxl.JPG 1600w ,https://johnson.wtf/media/posts/22/responsive/C644EAC2-D3D9-4E3F-B94B-E29233DF2C55-xxxl.JPG 2560w"></figure>
             ]]>
         </content>
     </entry>
