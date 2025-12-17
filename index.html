@@ -93,7 +93,7 @@
 <div class="relative order-1 lg:order-2 flex justify-center lg:justify-end">
 <div class="absolute -bottom-8 -right-8 w-full h-full bg-primary/20 dark:bg-primary/10 rounded-[2rem] -z-10 translate-x-4 translate-y-4 transform scale-95 origin-top-left"></div>
 <div class="relative w-full max-w-md aspect-square bg-gray-100 rounded-[2rem] border-2 border-black shadow-neo-lg overflow-hidden group">
-<img alt="A fluffy cat staring intently at a computer screen, representing the assistant manager" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A fluffy cat staring intently at a computer screen, representing the assistant manager" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9ipAXjK6g82UYlQg6AB-dP94mSxMSQMbfN4dNOR2nsx8GPn6IC-GqvaI7vb44XGeJe2JXcoEE3bGQ5fpyOFMijjbi5oEy1zADPrjwn-Dc4GNOOmbDD5LVs4B6EiQfQslh3YRn9_79ZCbUxk0vc9P1lHs9QS1YMP_P0USIR0QG5_-owZSfGS5P7cDvHvjEjuFhYS3HH0KRrUU53SmWrwHtbKpFW3hsCxRrbuRxUhlu8b25uF3K2FKw6SQ6knDAA_dC_2Kvq5qBlZo"/>
+<img id="iris-image" alt="Iris Cat, PM Assistant of the year, 2025" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" src="/iris/IMG_0058-xxxl.jpeg"/>
 <div class="absolute bottom-8 left-8 bg-white border-2 border-black py-2 px-4 shadow-neo-sm transform -rotate-2 z-10 rounded-lg">
 <div class="flex items-center gap-2">
 <span class="text-xl">🏆</span>
@@ -111,9 +111,9 @@
 <div class="absolute top-0 right-0 w-32 h-32 bg-lemon border-l-2 border-b-2 border-black rounded-bl-full -mr-2 -mt-2 z-0"></div>
 <div class="relative z-10 flex flex-col md:flex-row gap-12 items-start">
 <div class="w-full md:w-1/3 flex flex-col items-center md:items-start gap-6">
-<div class="relative w-48 h-48 md:w-56 md:h-56 shrink-0">
+<div class="relative w-48 h-48 md:w-56 md:h-56 shrink-0 group">
 <div class="absolute inset-0 bg-primary rounded-full translate-x-2 translate-y-2 border-2 border-black"></div>
-<img alt="Professional headshot of Jay Johnson smiling in a casual business setting" class="relative w-full h-full object-cover rounded-full border-2 border-black bg-gray-200" data-alt="Professional headshot of Jay Johnson smiling in a casual business setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNr8u7Bx2Ri8mdQXLw835jAosIywM1Vza-XA3K7qVRvsScoo5Wh-InYz9vBG356jFMM44QHbaVRKS9zNHKRvZuVVn8jgkoXDmmOsJmDGIHcEj1wiPk42HD72n3J1GK5NUyzBlh_Ze-8fdIdmJ-kZcPVYDxE3JBONBp7S8PpAn7EitX9Ax05uZW0yPOhj4FNPfixJ4FK7z6AMxNlg0Pim0MauFNum4WV9dvhNkCIwSApzS5UHIxkfcY282AifW2cayJMU_aDlFf4MY"/>
+<img id="jay-image" alt="Jay Johnson looking sharp and ready to be your next PM!" class="relative w-full h-full object-cover object-center rounded-full border-2 border-black shadow-neo-lg bg-gray-200 transition-transform duration-700 group-hover:scale-105" src="jay/jay1.jpg"/>
 </div>
 <div class="hidden md:flex flex-wrap gap-2 justify-center md:justify-start">
 <span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Product Strategy</span>
@@ -185,7 +185,7 @@
         <div class="flex flex-col gap-2 text-center md:text-left">
             <div class="inline-flex self-center md:self-start items-center gap-2 px-3 py-1 bg-black rounded-full w-fit mb-2">
                 <div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
-                <span class="text-primary text-xs font-bold uppercase tracking-wide">Status: Online</span>
+                <span class="text-primary text-xs font-bold uppercase tracking-wide">Status: Available</span>
             </div>
             <h2 class="text-3xl md:text-4xl font-extrabold text-black tracking-tight leading-none">
                 Let's build something<br/>
@@ -234,6 +234,32 @@
 </div>
 
 <script>
+    // Random Iris image selection
+    (function() {
+        const irisImages = [
+            'iris/iris1.jpg',
+            'iris/iris2.jpg',
+            'iris/iris3.jpg',
+            'iris/iris4.jpg',
+            'iris/iris5.jpg'
+        ];
+        const randomIndex = Math.floor(Math.random() * irisImages.length);
+        document.getElementById('iris-image').src = irisImages[randomIndex];
+    })();
+
+    // Random Jay profile image selection
+    (function() {
+        const jayImages = [
+            'jay/jay1.jpg',
+            'jay/jay2.jpg',
+            'jay/jay3.jpg',
+            'jay/jay4.jpg',
+            'jay/jay5.jpg'
+        ];
+        const randomIndex = Math.floor(Math.random() * jayImages.length);
+        document.getElementById('jay-image').src = jayImages[randomIndex];
+    })();
+
     // Copy to clipboard functionality
     document.getElementById('copy-email-btn').addEventListener('click', function() {
         const email = document.getElementById('email-address').textContent;
