@@ -84,7 +84,7 @@
 <span class="relative mr-2">Get in Touch</span>
 <span class="material-symbols-outlined text-xl group-hover:rotate-12 transition-transform">mail</span>
 </a>
-<a class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-black transition-all duration-200 bg-white dark:bg-gray-200 border-2 border-black shadow-neo hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black rounded-lg" href="#">
+<a class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-black transition-all duration-200 bg-white dark:bg-gray-200 border-2 border-black shadow-neo hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black rounded-lg" href="https://linkedin.com/in/thejaredjohnson" target="_blank" rel="noopener noreferrer">
 <span class="relative mr-2">LinkedIn Profile</span>
 <span class="material-symbols-outlined text-xl group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform">arrow_outward</span>
 </a>
@@ -115,11 +115,19 @@
 <div class="absolute inset-0 bg-primary rounded-full translate-x-2 translate-y-2 border-2 border-black"></div>
 <img id="jay-image" alt="Jay Johnson looking sharp and ready to be your next PM!" class="relative w-full h-full object-cover object-center rounded-full border-2 border-black shadow-neo-lg bg-gray-200 transition-transform duration-700 group-hover:scale-105" src="jay/jay1.jpg"/>
 </div>
-<div class="hidden md:flex flex-wrap gap-2 justify-center md:justify-start">
+<div id="skill-tags" class="hidden md:flex flex-wrap gap-2 justify-center md:justify-start">
 <span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Product Strategy</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Agile</span>
 <span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">API Design</span>
 <span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Sound Design</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">GenAI</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Analytics</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">0-to-1</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Monetization</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Trust & Safety</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Growth</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Funnel Optimization</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Cat Dad</span>
+<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Karaoke</span>
 </div>
 </div>
 <div class="w-full md:w-2/3 flex flex-col gap-8">
@@ -258,6 +266,17 @@
         ];
         const randomIndex = Math.floor(Math.random() * jayImages.length);
         document.getElementById('jay-image').src = jayImages[randomIndex];
+    })();
+
+    // Shuffle skill tags
+    (function() {
+        const container = document.getElementById('skill-tags');
+        const tags = Array.from(container.children);
+        for (let i = tags.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [tags[i], tags[j]] = [tags[j], tags[i]];
+        }
+        tags.forEach(tag => container.appendChild(tag));
     })();
 
     // Copy to clipboard functionality
