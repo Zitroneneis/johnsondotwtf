@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Modal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#46ec13",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#142210",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "mono": ["monospace"] // Fallback for the email address
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem", 
+                        "lg": "2rem", 
+                        "xl": "3rem", 
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for a retro feel if content overflows */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #142210;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #46ec13;
+            border: 2px solid #142210;
+            border-radius: 6px;
+        }
+        
+        /* Hard shadow utility class for Neo-Brutalist look */
+        .brutal-shadow {
+            box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+        }
+        .brutal-shadow-lg {
+            box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+        }
+        .brutal-shadow-sm {
+            box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display min-h-screen flex flex-col relative overflow-hidden">
+<!-- Background Context (Simulating the Portfolio Page behind the modal) -->
+<div class="absolute inset-0 z-0 opacity-20 pointer-events-none" data-alt="Abstract dot pattern background" style="background-image: radial-gradient(#46ec13 1px, transparent 1px); background-size: 24px 24px;">
+</div>
+<!-- Main Content Wrapper (blurred behind modal) -->
+<div class="flex-1 flex flex-col items-center justify-center p-8 blur-[2px] select-none pointer-events-none opacity-50">
+<h1 class="text-6xl font-bold text-white mb-8 tracking-tighter">JAY JOHNSON</h1>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl">
+<div class="h-64 bg-white/5 rounded-xl border border-white/10"></div>
+<div class="h-64 bg-white/5 rounded-xl border border-white/10"></div>
+</div>
+</div>
+<!-- Modal Overlay -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
+<!-- Retro Window Modal -->
+<div class="relative w-full max-w-[500px] flex flex-col bg-[#e0f0e0] border-2 border-black rounded-lg brutal-shadow-lg overflow-hidden transform transition-all">
+<!-- Window Title Bar -->
+<div class="flex items-center justify-between px-4 py-2 border-b-2 border-black bg-white">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-black" style="font-size: 20px;">terminal</span>
+<span class="text-sm font-bold tracking-wider text-black font-mono uppercase">SYSTEM_MSG: CONTACT.EXE</span>
+</div>
+<!-- Close Button -->
+<button class="flex items-center justify-center w-8 h-8 bg-[#ff6b6b] hover:bg-[#ff5252] border-2 border-black rounded shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:shadow-none active:translate-x-[2px] active:translate-y-[2px] transition-all cursor-pointer">
+<span class="material-symbols-outlined text-black font-bold" style="font-size: 18px;">close</span>
+</button>
+</div>
+<!-- Modal Content -->
+<div class="p-6 md:p-8 flex flex-col gap-6">
+<!-- Header Section -->
+<div class="flex flex-col gap-2 text-center md:text-left">
+<div class="inline-flex self-center md:self-start items-center gap-2 px-3 py-1 bg-black rounded-full w-fit mb-2">
+<div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+<span class="text-primary text-xs font-bold uppercase tracking-wide">Status: Online</span>
+</div>
+<h2 class="text-3xl md:text-4xl font-extrabold text-black tracking-tight leading-none">
+                        Let's build something<br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-black to-black/60">great together.</span>
+</h2>
+<p class="text-black font-medium mt-2">
+                        I'm currently open for new product management opportunities. Drop me a line!
+                    </p>
+</div>
+<!-- Email Display Box -->
+<div class="group relative">
+<div class="absolute -top-3 left-4 bg-[#e0f0e0] px-2 text-xs font-bold text-black border border-black rounded z-10">
+                        EMAIL_ADDRESS
+                    </div>
+<div class="flex items-center justify-between p-4 bg-white border-2 border-black rounded-lg brutal-shadow-sm">
+<div class="flex items-center gap-3 overflow-hidden">
+<span class="material-symbols-outlined text-black/50">mail</span>
+<span class="font-mono text-lg font-bold text-black truncate select-all">jared@johnson.wtf</span>
+</div>
+</div>
+</div>
+<!-- Action Button -->
+<button class="w-full relative overflow-hidden group bg-primary hover:bg-[#3ce00c] text-black border-2 border-black rounded-lg py-4 brutal-shadow transition-all active:shadow-none active:translate-x-[4px] active:translate-y-[4px]">
+<div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
+<div class="relative flex items-center justify-center gap-2">
+<span class="material-symbols-outlined font-bold">content_copy</span>
+<span class="font-bold text-lg uppercase tracking-wide">Copy to Clipboard</span>
+</div>
+</button>
+<!-- Footer Meta -->
+<div class="pt-2 border-t border-black/10 flex flex-col md:flex-row items-center justify-between gap-2 text-xs font-bold text-black/60 font-mono">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined" style="font-size: 14px;">schedule</span>
+                        Response time: &lt; 24 hours
+                    </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined" style="font-size: 14px;">location_on</span>
+                        Seattle, WA
+                    </span>
+</div>
+</div>
+</body></html>
