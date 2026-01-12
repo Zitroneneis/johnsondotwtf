@@ -77,18 +77,7 @@
 <img id="jay-image" alt="Jay Johnson looking sharp and ready to be your next PM!" class="relative w-full h-full object-cover object-center rounded-full border-2 border-black shadow-neo-lg bg-gray-200 transition-transform duration-700 group-hover:scale-105" src="jay/jay1.jpg"/>
 </div>
 <div id="skill-tags" class="hidden md:flex flex-wrap gap-2 justify-center md:justify-start">
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Product Strategy</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">API Design</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Sound Design</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">GenAI</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Analytics</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">0-to-1</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Monetization</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Trust & Safety</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Growth</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Funnel Optimization</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Cat Dad</span>
-<span class="bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm">Karaoke</span>
+<!-- Skill tags dynamically loaded via JavaScript -->
 </div>
 </div>
 <div class="w-full md:w-2/3 flex flex-col gap-8">
@@ -229,15 +218,56 @@
         document.getElementById('jay-image').src = jayImages[randomIndex];
     })();
 
-    // Shuffle skill tags
+    // Randomly select and display 10 skill tags
     (function() {
-        const container = document.getElementById('skill-tags');
-        const tags = Array.from(container.children);
-        for (let i = tags.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [tags[i], tags[j]] = [tags[j], tags[i]];
+        const allSkillTags = [
+            'Product Strategy',
+            'API Design',
+            'Sound Design',
+            'GenAI',
+            'Analytics',
+            '0-to-1',
+            'Monetization',
+            'Trust & Safety',
+            'Growth',
+            'Funnel Optimization',
+            'Cat Dad',
+            'Karaoke',
+            'Generative AI',
+            'HTML/CSS',
+            'Marketplaces',
+            'Roadmapping',
+            'Regulatory Compliance',
+            'A1 Engineer',
+            'Prototyping',
+            'Stakeholder Mgmt',
+            'Process Improvement',
+            'Agile/Scrum',
+            'Product Operations'
+        ];
+
+        // Shuffle array using Fisher-Yates algorithm
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
         }
-        tags.forEach(tag => container.appendChild(tag));
+
+        // Select 10 random tags
+        const shuffledTags = shuffleArray(allSkillTags);
+        const selectedTags = shuffledTags.slice(0, 10);
+
+        // Create and append tag elements
+        const container = document.getElementById('skill-tags');
+        selectedTags.forEach(tagText => {
+            const span = document.createElement('span');
+            span.className = 'bg-lemon border border-black px-3 py-1 rounded-full text-xs font-bold shadow-neo-sm';
+            span.textContent = tagText;
+            container.appendChild(span);
+        });
     })();
 
     // Copy to clipboard functionality
