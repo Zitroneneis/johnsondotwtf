@@ -44,3 +44,5 @@ This single-page application serves as my professional contact page and portfoli
 I'm a Senior Technical Product Manager with over 15 years of experience bridging the gap between messy business problems and elegant engineering solutions. From 0-to-1 innovation to scaling global social platforms, I build products that people love to use.
 
 Currently open to new opportunities where I can get my hands dirty and lead impactful teams!
+
+...
