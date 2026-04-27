@@ -378,6 +378,26 @@ body.modal-open{ overflow: hidden; }
   display:flex; flex-wrap: wrap; gap: 12px;
 }
 
+.hero__inner{ position: relative; }
+.hero__photo{ display: none; }
+
+@media (min-width: 980px){
+  .hero--with-photo .hero__inner{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(220px, 24vw, 300px);
+    gap: 48px;
+    align-items: start;
+  }
+  .hero--with-photo .hero__content{ min-width: 0; }
+  .hero--with-photo .hero__photo{
+    display: block;
+    margin-top: 24px;
+    transform: rotate(2deg);
+    transform-origin: top right;
+  }
+  .iris--hero{ padding: 12px; }
+}
+
 /* ============================================================
    PERSONA CARDS (combined page)
    ============================================================ */

@@ -106,44 +106,59 @@ export function ContactModal() {
   );
 }
 
-export function Hero({ stencil, roleTapes, lede, primaryCta, secondaryCta }) {
+export function Hero({ stencil, roleTapes, lede, primaryCta, secondaryCta, photo }) {
   return (
-    <section className="hero">
-      <div className="site-wrap">
-        {stencil && (
-          <div className="hero__stencil">
-            <span className="dot" aria-hidden="true"></span>
-            {stencil}
-          </div>
-        )}
-        <div className="hero__nameplate">
-          <h1 className="hero__name">jay johnson</h1>
-        </div>
-        {roleTapes && roleTapes.length > 0 && (
-          <div className="hero__roles">
-            {roleTapes.map((t, i) => (
-              <React.Fragment key={i}>
-                <span className={'hero__role-tape' + (t.color === 'green' ? ' hero__role-tape--green' : '')}>
-                  {t.label}
-                </span>
-                {i < roleTapes.length - 1 && <span className="hero__role-amp">+</span>}
-              </React.Fragment>
-            ))}
-          </div>
-        )}
-        {lede && <p className="hero__lede">{lede}</p>}
-        <div className="hero__cta-row">
-          {primaryCta && (
-            <button className="contact-btn" onClick={primaryCta.onClick} type="button">
-              {primaryCta.label} <span className="contact-btn__arrow">→</span>
-            </button>
+    <section className={'hero' + (photo ? ' hero--with-photo' : '')}>
+      <div className="site-wrap hero__inner">
+        <div className="hero__content">
+          {stencil && (
+            <div className="hero__stencil">
+              <span className="dot" aria-hidden="true"></span>
+              {stencil}
+            </div>
           )}
-          {secondaryCta && (
-            <a className="contact-btn" href={secondaryCta.href} target={secondaryCta.target}>
-              {secondaryCta.label} <span className="contact-btn__arrow">↗</span>
-            </a>
+          <div className="hero__nameplate">
+            <h1 className="hero__name">jay johnson</h1>
+          </div>
+          {roleTapes && roleTapes.length > 0 && (
+            <div className="hero__roles">
+              {roleTapes.map((t, i) => (
+                <React.Fragment key={i}>
+                  <span className={'hero__role-tape' + (t.color === 'green' ? ' hero__role-tape--green' : '')}>
+                    {t.label}
+                  </span>
+                  {i < roleTapes.length - 1 && <span className="hero__role-amp">+</span>}
+                </React.Fragment>
+              ))}
+            </div>
           )}
+          {lede && <p className="hero__lede">{lede}</p>}
+          <div className="hero__cta-row">
+            {primaryCta && (
+              <button className="contact-btn" onClick={primaryCta.onClick} type="button">
+                {primaryCta.label} <span className="contact-btn__arrow">→</span>
+              </button>
+            )}
+            {secondaryCta && (
+              <a className="contact-btn" href={secondaryCta.href} target={secondaryCta.target}>
+                {secondaryCta.label} <span className="contact-btn__arrow">↗</span>
+              </a>
+            )}
+          </div>
         </div>
+        {photo && (
+          <aside className="hero__photo" aria-hidden="true">
+            <div className="iris iris--hero">
+              <div className="iris__photo iris__photo--has-img">
+                <img src={photo.src} alt={photo.alt || 'Jay Johnson'} />
+              </div>
+              <div className="iris__cap">
+                <span className="iris__cap-name">{photo.name}</span>
+                <span className="iris__cap-role">{photo.role}</span>
+              </div>
+            </div>
+          </aside>
+        )}
       </div>
     </section>
   );
