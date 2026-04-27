@@ -19,11 +19,12 @@ window.PM_DATA = {
   ],
   // Lightweight career trail — kept loose so it can grow.
   trail: [
-    { yr: '2023→', role: 'Sr. Technical Product Manager', co: 'TechSmart', note: 'Architecting next-gen AI learning platform.', meta: 'AI · ED-TECH' },
-    { yr: '2018·22', role: 'Product Manager', co: 'Camfrog · Paltalk', note: 'Funnel, monetization, retention across global social video.', meta: 'SOCIAL · VIDEO' },
-    { yr: '<2018', role: 'PM · Growth · Eng adjacent', co: 'Earlier credits', note: '0-to-1 launches, marketplaces, regulated systems.', meta: '15+ YRS' },
+    { yr: '2023-2025', role: 'Product Manager', co: 'TechSmart', note: 'Architecting next-gen AI learning platform.', meta: 'AI · ED-TECH' },
+    { yr: '2021-2023', role: 'Product Manager', co: 'Byborg Enterprises', note: 'R&D, funnel optimization, marketplace growth.', meta: 'EXPERIMENTATION · MARKETPLACES' },
+    { yr: '2010-2021', role: 'Product Manager', co: 'Paltalk', note: 'SDLC, Funnel, monetization, retention across global social video.', meta: 'SOCIAL · VIDEO' },
+    { yr: '2008-2010', role: 'Founding CS, Trust & Safety', co: 'Camshare', note: 'Establish CS best practices, trust & safety protocols, fraud mitigation strategies', meta: 'SUPPORT · COMPLIANCE' },
   ],
-  status: 'open to new opportunities — let me get my hands dirty and lead an impactful team.',
+  status: 'open to new opportunities — ready to dive in to help build outstanding products.',
 };
 
 window.THEATRE_DATA = {
@@ -32,21 +33,20 @@ window.THEATRE_DATA = {
     { label: 'Sound', color: 'pink' },
     { label: 'Stagehand', color: 'green' },
   ],
-  lede: "sound design, A1, A2, electrics, board op, scenic, general stagehand. handy with a wrench. handle with headset.",
+  lede: "throwing faders, hanging lights, hitting things with a wrench. Making the sure the show is seen and heard, and the stage is safe.",
   about: [
     "Currently Head Audio Engineer at ArtsWest. Local musical theatre in Seattle — design, mix, run the show, strike, repeat. Standing by on headset, ch 2.",
     "If it makes noise, gets focused, hangs from a pipe, rolls on a deck, or needs a screwdriver — I'm your call.",
   ],
   skills: [
-    'Sound Design', 'A1', 'A2', 'Electrics',
-    'Board Op', 'Scenic Hand', 'Stagehand', 'Wrench',
+    'Sound Design', 'A1', 'A2', 'Audio Grip/Deckhand', 'RF Tech',  'Electrics: Hanging', 'Electrics: Focus', 'Electrics: DMX', 'Board Op', 'Scenic Hand', 'Stagehand', 'Wrench',
   ],
   credits: [
-    { yr: '2026', role: 'A1',                      show: 'Man of La Mancha', house: 'ArtsWest' },
     { yr: '2025', role: 'A1',                      show: 'Penelope',         house: 'ArtsWest' },
-    { yr: '2025', role: 'Sound Design · A1',       show: 'Anything Goes',    house: 'ArtsWest' },
-    { yr: '2024', role: 'A1',                      show: 'Here & Their',     house: 'ArtsWest' },
-    { yr: '2024', role: 'A1',                      show: 'Oliver',           house: 'ArtsWest' },
+    { yr: '2025', role: 'A1',                      show: 'Man of La Mancha', house: 'Reboot/Theatre off Jackson' },
+    { yr: '2025', role: 'Sound Design · A1',       show: 'Anything Goes',    house: 'Reboot/Theatre off Jackson' },
+    { yr: '2025', role: 'A1',                      show: 'Here & Their',     house: 'JazzyRae/12th Ave Arts' },
+    { yr: '2025', role: 'A1',                      show: 'Oliver',           house: 'Reboot/Theatre off Jackson' },
   ],
-  status: 'currently in tech — booking selectively for q3/q4. ask me about mixing Anything Goes in space.',
+  status: 'In the green room standing by for the next cue. Contact me to make the show go on!',
 };

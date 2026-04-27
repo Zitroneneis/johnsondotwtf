@@ -66,8 +66,8 @@ function TheatreSection({ asPage }) {
             <img src="jay/jayt.jpg" alt="Jay Johnson — at the desk" />
           </div>
           <div className="iris__cap">
-            <span className="iris__cap-name">at the desk</span>
-            <span className="iris__cap-role">A1 · ARTSWEST</span>
+            <span className="iris__cap-name">In office</span>
+            <span className="iris__cap-role">Electrics · ARTSWEST</span>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ function IrisCameo() {
             When I'm not shipping code or mixing a show, I report to a cat named <strong style={{color:'var(--sd-paper)'}}>Iris</strong> who actually runs this whole operation.
           </p>
           <p>
-            She holds the role of <em>PM's Assistant of the Year</em>, audio engineer-in-training, and full-time floor supervisor. Title revoked at her discretion.
+            She acts as my primary <em>Production Manager</em> and full-time floor supervisor. Title revoked at her discretion.
           </p>
         </div>
         <div className="iris">
@@ -117,7 +117,7 @@ function IrisCameo() {
           </div>
           <div className="iris__cap">
             <span className="iris__cap-name">iris</span>
-            <span className="iris__cap-role">ASSISTANT OF THE YEAR</span>
+            <span className="iris__cap-role">Production Manager and Treat Liaison</span>
           </div>
         </div>
       </div>
