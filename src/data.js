@@ -45,8 +45,7 @@ export const THEATRE_DATA = {
     "If it makes noise, gets focused, hangs from a pipe, rolls on a deck, or needs a screwdriver — I'm your call.",
   ],
   skills: [
-    'Sound Design', 'A1', 'A2', 'Electrics',
-    'Board Op', 'Scenic Hand', 'Stagehand', 'Wrench',
+    'Sound Design', 'A1', 'A2', 'Audio Grip/Deckhand', 'RF Tech',  'Electrics: Hanging', 'Electrics: Focus', 'Electrics: DMX', 'Board Op', 'Scenic Hand', 'Stagehand', 'Hitting things with a wrench',
   ],
   credits: [
     { yr: '2026', role: 'A1',                      show: 'Man of La Mancha', house: 'ArtsWest' },
