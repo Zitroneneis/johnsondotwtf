@@ -381,6 +381,15 @@ body.modal-open{ overflow: hidden; }
 .hero__inner{ position: relative; }
 .hero__photo{ display: none; }
 
+.hero--with-photo .hero__photo{
+  display: block;
+  margin: 24px auto 8px;
+  width: min(360px, 70vw);
+  transform: rotate(-1.5deg);
+  transform-origin: center;
+}
+.iris--hero{ padding: 12px; }
+
 @media (min-width: 980px){
   .hero--with-photo .hero__inner{
     display: grid;
@@ -390,12 +399,11 @@ body.modal-open{ overflow: hidden; }
   }
   .hero--with-photo .hero__content{ min-width: 0; }
   .hero--with-photo .hero__photo{
-    display: block;
-    margin-top: 24px;
+    margin: 24px 0 0;
+    width: auto;
     transform: rotate(2deg);
     transform-origin: top right;
   }
-  .iris--hero{ padding: 12px; }
 }
 
 /* ============================================================
