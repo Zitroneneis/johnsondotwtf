@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Jay Johnson — theatre tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Jay Johnson — Head Audio Engineer at ArtsWest. Sound design, A1, stagehand. Seattle, WA."/>
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://johnson.wtf/theatre.html"/>
+  <meta property="og:title" content="Jay Johnson — theatre tech"/>
+  <meta property="og:description" content="Head Audio Engineer at ArtsWest. Sound design, A1, stagehand. Handle with headset."/>
+  <meta property="og:image" content="https://johnson.wtf/iris/iris2.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:url" content="https://johnson.wtf/theatre.html"/>
+  <meta name="twitter:title" content="Jay Johnson — theatre tech"/>
+  <meta name="twitter:description" content="Head Audio Engineer at ArtsWest. Sound design, A1, stagehand. Handle with headset."/>
+  <meta name="twitter:image" content="https://johnson.wtf/iris/iris2.jpg"/>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+  <link rel="manifest" href="site.webmanifest"/>
+
+  <link rel="stylesheet" href="css/tokens.css"/>
+  <link rel="stylesheet" href="css/colors_and_type.css"/>
+  <link rel="stylesheet" href="css/textures.css"/>
+  <link rel="stylesheet" href="css/components.css"/>
+  <link rel="stylesheet" href="css/site.css"/>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body class="sd-host sd-floor-bg">
+
+<div id="app"></div>
+
+<script type="text/babel" src="js/data.jsx"></script>
+<script type="text/babel" src="js/shared.jsx"></script>
+<script type="text/babel" src="js/sections.jsx"></script>
+
+<script type="text/babel">
+  function TheatreHero() {
+    const onContact = () => window.dispatchEvent(new CustomEvent('open-contact'));
+    return (
+      <Hero
+        stencil={window.THEATRE_DATA.stencil}
+        roleTapes={window.THEATRE_DATA.roleTapes}
+        lede={window.THEATRE_DATA.lede}
+        primaryCta={{ label: 'Book me', onClick: onContact }}
+      />
+    );
+  }
+
+  function App() {
+    return (
+      <>
+        <Header subtitle="theatre tech" />
+        <main>
+          <TheatreHero/>
+          <section className="site-wrap" data-screen-label="theatre-content">
+            <TheatreSection asPage={true} />
+          </section>
+        </main>
+        <Footer/>
+        <ContactModal/>
+      </>
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('app')).render(<App/>);
+</script>
+</body>
+</html>

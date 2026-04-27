@@ -1,12 +1,6 @@
 {
   "name": "johnsondotwtf",
-  "version": "1.0.0",
-  "description": "Jay Johnson Portfolio",
-  "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./css/styles.css --minify",
-    "watch:css": "tailwindcss -i ./src/input.css -o ./css/styles.css --watch"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.0"
-  }
+  "version": "2.0.0",
+  "description": "Jay Johnson — personal homepage (Spike Deck redesign)",
+  "private": true
 }
