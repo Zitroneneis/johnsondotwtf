@@ -144,12 +144,15 @@ body.sd-host{
    CONTACT MODAL
    ============================================================ */
 .modal-backdrop{
-  position: fixed; inset: 0;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
   background: rgba(0,0,0,.78);
   z-index: 100;
   display: none;
   align-items: center; justify-content: center;
   padding: 20px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 .modal-backdrop.is-open{
   display: flex;
@@ -246,6 +249,8 @@ body.modal-open{ overflow: hidden; }
   max-width: 760px;
   max-height: 88vh;
   overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
   padding: 28px 28px 32px;
 }
 .modal--persona .modal__head{ margin-bottom: 18px; }
