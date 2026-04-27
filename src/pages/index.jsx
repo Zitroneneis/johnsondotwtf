@@ -5,7 +5,7 @@ import { PMSection, TheatreSection, IrisCameo } from '../sections.jsx';
 import { Persona } from '../persona.jsx';
 import { PM_DATA, THEATRE_DATA } from '../data.js';
 
-const JAY_PHOTOS = ['jay/jay1.jpg', 'jay/jay3.jpg', 'jay/jay4.jpg', 'jay/jayp.jpg', 'jay/jayt.jpg'];
+const JAY_PHOTOS = ['jay/jay1.jpg', 'jay/jay3.jpg', 'jay/jay2.jpg', 'jay/jay4.jpg', 'jay/jayp.jpg', 'jay/jayt.jpg'];
 const HERO_PHOTO = JAY_PHOTOS[Math.floor(Math.random() * JAY_PHOTOS.length)];
 
 function CombinedHero() {
