@@ -1,0 +1,49 @@
+/* ============================================================
+   SPIKE DECK · TEXTURES · v1.0
+   Painted floor, nails, scuffs, glow halos.
+   ============================================================ */
+
+.sd-floor{
+  background-color: var(--sd-black);
+  background-image:
+    linear-gradient(90deg, transparent 0 149px, rgba(255,255,255,.035) 149px 150px, transparent 150px 100%),
+    linear-gradient(90deg, transparent 0 299px, rgba(255,255,255,.030) 299px 300px, transparent 300px 100%),
+    linear-gradient(90deg, transparent 0 449px, rgba(255,255,255,.030) 449px 450px, transparent 450px 100%),
+    repeating-linear-gradient(0deg,  rgba(255,255,255,.012) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.013) 0 2px, transparent 2px 6px);
+}
+
+.sd-floor--tight{
+  background-image:
+    linear-gradient(90deg, transparent 0 89px,  rgba(255,255,255,.06) 89px 90px,  transparent 90px 100%),
+    linear-gradient(90deg, transparent 0 179px, rgba(255,255,255,.05) 179px 180px,transparent 180px 100%),
+    repeating-linear-gradient(0deg,  rgba(255,255,255,.015) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.020) 0 2px, transparent 2px 6px);
+}
+
+.sd-floor-bg::before{
+  content:''; position:fixed; inset:0; z-index:-1;
+  pointer-events: none;
+  background-color: var(--sd-black);
+  background-image:
+    linear-gradient(90deg, transparent 0 149px, rgba(255,255,255,.035) 149px 150px, transparent 150px 100%),
+    linear-gradient(90deg, transparent 0 299px, rgba(255,255,255,.030) 299px 300px, transparent 300px 100%),
+    linear-gradient(90deg, transparent 0 449px, rgba(255,255,255,.030) 449px 450px, transparent 450px 100%),
+    repeating-linear-gradient(0deg,  rgba(255,255,255,.012) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.013) 0 2px, transparent 2px 6px);
+}
+
+.sd-nail{
+  position:absolute; width:4px; height:4px; border-radius:50%;
+  background: radial-gradient(circle at 30% 30%, #6a6a6a, #1a1a1a);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.6);
+}
+
+.sd-scuff{
+  position:absolute; border-radius:50%;
+  background: radial-gradient(ellipse, rgba(255,255,255,.045), transparent 70%);
+  filter: blur(3px);
+  pointer-events:none;
+}
+
+.sd-glow-halo{ box-shadow: var(--sd-glow-halo); }

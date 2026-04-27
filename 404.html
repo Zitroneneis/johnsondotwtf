@@ -1,77 +1,31 @@
-<!DOCTYPE html>
-<html class="scroll-smooth" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <meta http-equiv="refresh" content="5;url=index.html"/>
-    <title>404 - Page Not Found | Jay Johnson</title>
-    <meta name="description" content="Oops! Page not found."/>
-    
-    <!-- Favicon & Manifest -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link rel="manifest" href="site.webmanifest"/>
-    
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-    <link href="css/styles.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <title>404 — off the deck | Jay Johnson</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="refresh" content="5;url=index.html"/>
+  <meta name="description" content="Page not found."/>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+  <link rel="manifest" href="site.webmanifest"/>
+
+  <link rel="stylesheet" href="css/tokens.css"/>
+  <link rel="stylesheet" href="css/colors_and_type.css"/>
+  <link rel="stylesheet" href="css/textures.css"/>
+  <link rel="stylesheet" href="css/components.css"/>
+  <link rel="stylesheet" href="css/site.css"/>
 </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-black dark:text-white antialiased selection:bg-lemon selection:text-black overflow-x-hidden">
-    <div class="relative min-h-screen flex flex-col w-full items-center justify-center">
-        <section class="relative w-full bg-white dark:bg-background-dark">
-            <div class="max-w-4xl mx-auto px-6 py-16 md:py-24">
-                <div class="flex flex-col items-center text-center gap-12">
-                    <!-- Error Icon -->
-                    <div class="relative">
-                        <div class="absolute inset-0 bg-lemon rounded-full translate-x-3 translate-y-3 border-2 border-black w-32 h-32"></div>
-                        <div class="relative w-32 h-32 bg-white dark:bg-gray-800 rounded-full border-2 border-black shadow-neo-lg flex items-center justify-center">
-                            <span class="material-symbols-outlined text-9xl text-primary animate-bounce">error</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Main Content -->
-                    <div class="space-y-6">
-                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight leading-[1.1] text-black dark:text-lemon">
-                            Uh oh! you broke it!
-                        </h1>
-                        <p class="text-xl md:text-2xl font-medium leading-relaxed text-gray-800 dark:text-gray-300 max-w-2xl">
-                            Just kidding. This is just a 404 error page. Let's get you back home.
-                        </p>
-                    </div>
-                    
-                    <!-- Countdown -->
-                    <div class="relative bg-lemon border-2 border-black shadow-neo-lg rounded-3xl px-32 md:px-48 py-8 md:py-10">
-                        <div id="countdown" class="text-5xl md:text-6xl font-black text-black">
-                            &nbsp;Redirecting in&nbsp;5...&nbsp;
-                        </div>
-                    </div>
-                    
-                    <!-- Manual Link -->
-                    <div class="pt-8">
-                        <a class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-black transition-all duration-200 bg-white dark:bg-gray-200 border-2 border-black shadow-neo hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black rounded-lg" href="index.html">
-                            <span class="relative mr-2">Or click here to go home now</span>
-                            <span class="material-symbols-outlined text-xl group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform">home</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    
-    <script>
-        let count = 5;
-        const countdownElement = document.getElementById('countdown');
-        
-        const countdown = setInterval(() => {
-            count--;
-            countdownElement.innerHTML = '&nbsp;Redirecting in&nbsp;' + count + '...&nbsp;';
-            
-            if (count <= 0) {
-                clearInterval(countdown);
-                window.location.href = 'index.html';
-            }
-        }, 1000);
-    </script>
+<body class="sd-host sd-floor-bg">
+  <main class="site-wrap" style="min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:18px;padding:48px 32px;">
+    <span class="hero__stencil"><span class="dot" aria-hidden="true"></span>◆ 404 · OFF THE DECK</span>
+    <h1 class="hero__name" style="margin:0;">lost the cue.</h1>
+    <span class="hero__role-tape hero__role-tape--green" style="font-size:22px;">Page not found</span>
+    <p class="hero__lede" style="max-width:600px;">that page isn't on the run sheet. stand by — sending you back to the top in 5.</p>
+    <a class="contact-btn" href="index.html">Back to home <span class="contact-btn__arrow">→</span></a>
+  </main>
 </body>
 </html>
