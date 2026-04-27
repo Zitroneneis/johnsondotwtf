@@ -23,6 +23,7 @@
 
 .sd-floor-bg::before{
   content:''; position:fixed; inset:0; z-index:-1;
+  pointer-events: none;
   background-color: var(--sd-black);
   background-image:
     linear-gradient(90deg, transparent 0 149px, rgba(255,255,255,.035) 149px 150px, transparent 150px 100%),
