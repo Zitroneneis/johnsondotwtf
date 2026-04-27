@@ -1,19 +1,25 @@
-// Persona card with expand/collapse for combined page.
+// Persona card — opens a modal dialog with the section info.
 
 function Persona({ id, num, title, tape, tapeColor, blurb, chips, href, children }) {
   const [open, setOpen] = React.useState(false);
-  const expandRef = React.useRef(null);
 
-  const toggle = () => setOpen(o => !o);
+  React.useEffect(() => {
+    document.body.classList.toggle('modal-open', open);
+    if (!open) return;
+    const onKey = (e) => { if (e.key === 'Escape') setOpen(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
+
+  const titleId = 'persona-modal-title-' + id;
 
   return (
     <div className="persona-block" data-screen-label={'persona-' + id}>
       <button
         className="persona"
         type="button"
-        onClick={toggle}
-        aria-expanded={open}
-        aria-controls={'persona-expand-' + id}
+        onClick={() => setOpen(true)}
+        aria-haspopup="dialog"
       >
         <div className="persona__head">
           <span className={'persona__tape persona__tape--' + tapeColor}>{tape}</span>
@@ -26,25 +32,31 @@ function Persona({ id, num, title, tape, tapeColor, blurb, chips, href, children
           {chips.length > 5 && <span className="persona__chip">+ {chips.length - 5} more</span>}
         </div>
         <div className="persona__foot">
-          <span>{open ? 'Collapse' : 'Tap to expand'}</span>
+          <span>Tap to view</span>
           <span className="persona__foot-arrow">→</span>
         </div>
       </button>
 
       <div
-        id={'persona-expand-' + id}
-        className={'persona-expand' + (open ? ' persona-expand--open' : '')}
-        ref={expandRef}
+        className={'modal-backdrop' + (open ? ' is-open' : '')}
+        onClick={() => setOpen(false)}
+        aria-hidden={!open}
       >
-        <div className="persona-expand__inner">
-          {children}
-          <div className="persona-expand__foot">
-            <button className="persona-expand__close" onClick={() => setOpen(false)} type="button">
-              ↑ Collapse
-            </button>
-            <a className="contact-btn" href={href}>
-              View full page <span className="contact-btn__arrow">→</span>
-            </a>
+        <div
+          className="modal modal--persona"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={titleId}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button className="modal__close" onClick={() => setOpen(false)} aria-label="Close">×</button>
+          <div className="modal__head">
+            <span className={'persona__tape persona__tape--' + tapeColor}>{tape}</span>
+            <h2 className="modal__title" id={titleId}>{title}</h2>
+            <span className="modal__stencil">{num}</span>
+          </div>
+          <div className="modal--persona__body">
+            {children}
           </div>
         </div>
       </div>
