@@ -5,6 +5,9 @@ import { PMSection, TheatreSection, IrisCameo } from '../sections.jsx';
 import { Persona } from '../persona.jsx';
 import { PM_DATA, THEATRE_DATA } from '../data.js';
 
+const JAY_PHOTOS = ['jay/jay1.jpg', 'jay/jay3.jpg', 'jay/jay2.jpg', 'jay/jay4.jpg', 'jay/jayp.jpg', 'jay/jayt.jpg'];
+const HERO_PHOTO = JAY_PHOTOS[Math.floor(Math.random() * JAY_PHOTOS.length)];
+
 function CombinedHero() {
   const onContact = () => window.dispatchEvent(new CustomEvent('open-contact'));
   return (
@@ -16,6 +19,7 @@ function CombinedHero() {
       ]}
       lede="two sides, one operator. by day: senior technical pm with 15+ yrs shipping product. by night: lurking about in show blacks - a1, electrics, and hitting things with a wrench."
       primaryCta={{ label: 'Get in touch', onClick: onContact }}
+      photo={{ src: HERO_PHOTO, alt: 'Jay Johnson', name: 'jay johnson', role: 'Operator · SEA' }}
     />
   );
 }
