@@ -29,48 +29,9 @@
   <link rel="stylesheet" href="css/components.css"/>
   <link rel="stylesheet" href="css/site.css"/>
 
-  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+  <script src="js/pm.bundle.js" defer></script>
 </head>
 <body class="sd-host sd-floor-bg">
-
 <div id="app"></div>
-
-<script type="text/babel" src="js/data.jsx"></script>
-<script type="text/babel" src="js/shared.jsx"></script>
-<script type="text/babel" src="js/sections.jsx"></script>
-
-<script type="text/babel">
-  function PMHero() {
-    const onContact = () => window.dispatchEvent(new CustomEvent('open-contact'));
-    return (
-      <Hero
-        stencil={window.PM_DATA.stencil}
-        roleTapes={window.PM_DATA.roleTapes}
-        lede={window.PM_DATA.lede}
-        primaryCta={{ label: 'Get in touch', onClick: onContact }}
-        secondaryCta={{ label: 'LinkedIn', href: window.SITE.linkedin, target: '_blank' }}
-      />
-    );
-  }
-
-  function App() {
-    return (
-      <>
-        <Header subtitle="product manager" />
-        <main>
-          <PMHero/>
-          <section className="site-wrap" data-screen-label="pm-content">
-            <PMSection asPage={true} />
-          </section>
-        </main>
-        <Footer/>
-        <ContactModal/>
-      </>
-    );
-  }
-  ReactDOM.createRoot(document.getElementById('app')).render(<App/>);
-</script>
 </body>
 </html>

@@ -2,5 +2,25 @@
   "name": "johnsondotwtf",
   "version": "2.0.0",
   "description": "Jay Johnson — personal homepage (Spike Deck redesign)",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zitroneneis/johnsondotwtf.git"
+  },
+  "homepage": "https://johnson.wtf",
+  "bugs": {
+    "url": "https://github.com/Zitroneneis/johnsondotwtf/issues"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
