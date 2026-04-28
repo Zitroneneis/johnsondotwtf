@@ -1,6 +1,6 @@
 import React from 'react';
 import { PM_DATA, THEATRE_DATA } from './data.js';
-import { SectHead, Chips, Status } from './shared.jsx';
+import { SectHead, Chips, Status, Picture } from './shared.jsx';
 
 // Pick a random iris photo on page load — sticks for the lifetime of the page.
 export const IRIS_PHOTO = `iris/iris${1 + Math.floor(Math.random() * 6)}.jpg`;
@@ -16,7 +16,7 @@ export function PMSection({ asPage }) {
         </div>
         <div className="iris">
           <div className="iris__photo iris__photo--has-img">
-            <img src="jay/jayp.jpg" alt="Jay Johnson — PM headshot" />
+            <Picture src="jay/jayp.jpg" alt="Jay Johnson — PM headshot" />
           </div>
           <div className="iris__cap">
             <span className="iris__cap-name">jay johnson</span>
@@ -63,7 +63,7 @@ export function TheatreSection({ asPage }) {
         </div>
         <div className="iris">
           <div className="iris__photo iris__photo--has-img">
-            <img src="jay/jayt.jpg" alt="Jay Johnson — at the desk" />
+            <Picture src="jay/jayt.jpg" alt="Jay Johnson — at the desk" />
           </div>
           <div className="iris__cap">
             <span className="iris__cap-name">In office</span>
@@ -111,7 +111,7 @@ export function IrisCameo() {
         </div>
         <div className="iris">
           <div className="iris__photo iris__photo--has-img">
-            <img src={IRIS_PHOTO} alt="Iris the cat" />
+            <Picture src={IRIS_PHOTO} alt="Iris the cat" />
           </div>
           <div className="iris__cap">
             <span className="iris__cap-name">iris</span>
