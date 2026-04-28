@@ -1,6 +1,16 @@
 import React from 'react';
 import { SITE } from './data.js';
 
+export function Picture({ src, alt, ...rest }) {
+  const webp = src.replace(/\.(jpe?g|png)$/i, '.webp');
+  return (
+    <picture>
+      <source srcSet={webp} type="image/webp" />
+      <img src={src} alt={alt} {...rest} />
+    </picture>
+  );
+}
+
 export function Header({ subtitle }) {
   const onContact = () => window.dispatchEvent(new CustomEvent('open-contact'));
   return (
@@ -150,7 +160,7 @@ export function Hero({ stencil, roleTapes, lede, primaryCta, secondaryCta, photo
           <aside className="hero__photo" aria-hidden="true">
             <div className="iris iris--hero">
               <div className="iris__photo iris__photo--has-img">
-                <img src={photo.src} alt={photo.alt || 'Jay Johnson'} />
+                <Picture src={photo.src} alt={photo.alt || 'Jay Johnson'} />
               </div>
               <div className="iris__cap">
                 <span className="iris__cap-name">{photo.name}</span>
