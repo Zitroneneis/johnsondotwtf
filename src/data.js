@@ -44,6 +44,7 @@ export const THEATRE_DATA = {
   about: [
     "Currently Head Audio Engineer at ArtsWest. Local musical theatre in Seattle — design, mix, run the show, strike, repeat. Standing by on headset, ch 2.",
     "If it makes noise, gets focused, hangs from a pipe, rolls on a deck, or needs a screwdriver — I'm your call.",
+    "IATSE Local 15 Permit Worker, ask for me by name!", 
   ],
   skills: [
     'Sound Design', 'A1', 'A2', 'Audio Grip/Deckhand', 'RF Tech',  'Electrics: Hang', 'Electrics: Focus', 'Electrics: DMX', 'Board Op', 'Scenic Hand', 'Carpenter', 'Stagehand', 'Hitting things with a wrench',
@@ -55,5 +56,5 @@ export const THEATRE_DATA = {
     { yr: '2025', role: 'A1',                      show: 'Here & Their',     house: 'JazzyRae/12th Ave Arts' },
     { yr: '2025', role: 'A1',                      show: 'Oliver',           house: 'Reboot/Theatre Off Jackson' },
   ],
-  status: 'In the green room standing by for the next cue. Contact me to make the show go on!',
+  status: 'In the green room standing by for the next cue. Contact me to make the show go!',
 };
